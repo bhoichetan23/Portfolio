@@ -1,0 +1,153 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Chetan Bhoi</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- Navbar -->
+    <header
+      class="bg-white/80 backdrop-blur-md shadow-md fixed w-full z-50 transition-colors duration-300"
+    >
+      <div class="max-w-7xl mx-auto grid grid-cols-3 items-center py-4 px-6">
+        <h1 class="text-2xl font-bold text-blue-600 dark:text-blue-400">
+          Chetan Bhoi
+        </h1>
+        <nav class="flex justify-center space-x-6 col-span-1">
+          <a href="index.html" class="hover:text-blue-500">Home</a>
+          <a href="about.html" class="hover:text-blue-500">About</a>
+          <a href="projects.html" class="hover:text-blue-500">Projects</a>
+          <a href="contact.html" class="hover:text-blue-500">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Projects -->
+    <section class="min-h-screen py-20 px-6">
+      <h2 class="text-3xl text-center font-bold mt-20 mb-10">PROJECTS</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <!-- Project Card -->
+        <div class="bg-white shadow rounded-lg p-5 hover:shadow-lg transition">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="mx-auto mb-4 h-10 w-10 text-blue-500"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 16v-4m0 0l2-2m-2 2l2 2m12-2v4m0-4l-2-2m2 2l-2 2M8 12h8"
+            />
+          </svg>
+          <h4 class="text-xl font-semibold">Workout Tracker</h4>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li>
+              Developed a full-stack fitness tracking application using MongoDB,
+              Express.js, React, and Node.js that enables users to log, edit,
+              and monitor workouts securely.
+            </li>
+            <li>
+              Implemented JWT-based authentication and dynamic workout
+              management (create, read, update, delete).
+            </li>
+            <li>
+              Ensured data validation, input sanitization, and followed backend
+              security best practices (authentication, hashed passwords, CORS).
+            </li>
+          </ul>
+          <br />
+          <a
+            href="https://www.github.com/bhoichetan23"
+            target="_blank"
+            class="text-gray-700 hover:text-blue-600 text-xl"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              class="w-8 h-8 inline"
+            />
+            GitHub
+          </a>
+        </div>
+
+        <div class="bg-white shadow rounded-lg p-5 hover:shadow-lg transition">
+          <div class="flex justify-center mb-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 text-blue-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2m-6 0h-2a2 2 0 
+                  01-2-2v-6a2 2 0 012-2h2m0-4h.01"
+              />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold">Social Media App</h4>
+          <ul
+            class="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1"
+          >
+            <li>
+              Developed social messaging app using React.js, Node.js, Express.js
+              and Socket.io.
+            </li>
+            <li>
+              Implemented authentication using JWT and MongoDB for efficient
+              user data storage.
+            </li>
+
+            <li>Used WebSockets for real-time communication between users.</li>
+          </ul>
+          <br />
+          <br />
+          <br />
+
+          <a
+            href="https://www.github.com/bhoichetan23"
+            target="_blank"
+            class="text-gray-700 hover:text-blue-600 text-xl"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              class="w-8 h-8 inline"
+            />
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t mt-16">
+      <div
+        class="max-w-7xl mx-auto py-6 px-6 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm"
+      >
+        <p>© 2025 Chetan Bhoi. All rights reserved.</p>
+        <div class="flex space-x-4 mt-3 md:mt-0">
+          <a
+            href="https://www.github.com/bhoichetan23"
+            target="_blank"
+            class="hover:text-blue-600"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/chetan-bhoi-190112220"
+            target="_blank"
+            class="hover:text-blue-600"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
